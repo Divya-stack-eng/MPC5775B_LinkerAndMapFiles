@@ -1,0 +1,6 @@
+Building target: test_01_Z7_0.elf
+Invoking: Standard S32DS C Linker
+powerpc-eabivle-gcc -o "test_01_Z7_0.elf" "@test_01_Z7_0.args"    
+c:/nxp/s32ds_power_v2.1/s32ds/build_tools/powerpc-eabivle-4_9/bin/../lib/gcc/powerpc-eabivle/4.9.4/../../../../powerpc-eabivle/bin/real-ld.exe: section .NULL LMA [00815100,00816f27] overlaps section .sdata LMA [008150f4,00815103]
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:49: test_01_Z7_0.elf] Error 1
